@@ -1,0 +1,57 @@
+--- Data Shape ---
+Rows: 97712, Columns: 9
+
+--- Head (First 5 Rows) ---
+   year  price transmission  mileage fuelType  tax   mpg  engineSize Manufacturer
+0  2017   7495       Manual    11630   Petrol  145  60.1         1.0       hyundi
+1  2017  10989       Manual     9200   Petrol  145  58.9         1.0   volkswagen
+2  2019  27990    Semi-Auto     1614   Diesel  145  49.6         2.0          BMW
+3  2017  12495       Manual    30960   Diesel  150  62.8         2.0        skoda
+4  2017   7999       Manual    19353   Petrol  125  54.3         1.2         ford
+
+--- Descriptive Statistics ---
+               year          price        mileage           tax           mpg    engineSize
+count  97712.000000   97712.000000   97712.000000  97712.000000  97712.000000  97712.000000
+mean    2017.066502   16773.487555   23219.475499    120.142408     55.205623      1.664913
+std        2.118661    9868.552222   21060.882301     63.357250     16.181659      0.558574
+min     1970.000000     450.000000       1.000000      0.000000      0.300000      0.000000
+25%     2016.000000    9999.000000    7673.000000    125.000000     47.100000      1.200000
+50%     2017.000000   14470.000000   17682.500000    145.000000     54.300000      1.600000
+75%     2019.000000   20750.000000   32500.000000    145.000000     62.800000      2.000000
+max     2024.000000  159999.000000  323000.000000    580.000000    470.800000      6.600000
+
+--- Categorical Columns ---
+transmission: 4 unique values
+fuelType: 5 unique values
+Manufacturer: 9 unique values
+
+--- Null Values ---
+year            0
+price           0
+transmission    0
+mileage         0
+fuelType        0
+tax             0
+mpg             0
+engineSize      0
+Manufacturer    0
+--- Outlier Handling ---
+price - Lower Bound: -6127.5
+price - Upper Bound: 36876.5
+
+--- Outlier Handling ---
+mileage - Lower Bound: -29567.5
+mileage - Upper Bound: 69740.5
+
+--- Outlier Handling ---
+mpg - Lower Bound: 23.550000000000008
+mpg - Upper Bound: 86.35
+
+--- Outlier Handling ---
+engineSize - Lower Bound: -2.220446049250313e-16
+engineSize - Upper Bound: 3.2
+
+--- Outlier Handling ---
+tax - Lower Bound: 95.0
+tax - Upper Bound: 175.0
+
