@@ -2,5 +2,10 @@ pandas
 numpy
 matplotlib
 seaborn
-
+scikit-learn
+catboost
+xgboost
+randomsearch
+comet_ml
+python-dotenv
 -e .
